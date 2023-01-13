@@ -73,7 +73,7 @@
 	<ion-item>
 		<ion-label>Visit Svelte Kit docs</ion-label>
 		<ion-button
-			href="https://kit.svelte.dev/docs/introduction"
+			href="ssdsd"
 			on:ionBlur={console.log}
 			on:copy={console.log}
 			target="_new"
