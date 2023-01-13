@@ -36,6 +36,7 @@ N.B.
 
 
 ~~## known issue - high severity (SHOULD BE CLOSED?)~~
+
 Some attributes give same error. See `+page.svelte` in `routes`.
 ```
 Argument of type '{ ****: string; }' is not assignable to parameter of type 'HTMLBaseAttributes | Ion***'.
