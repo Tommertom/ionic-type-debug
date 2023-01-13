@@ -35,7 +35,7 @@ N.B.
 `node_modules/ionic-svelte/package.json` has ` "types": "index.d.ts",` in it. Not sure if that actually replaces the `tsconfig.json` part in order to include the typings? (I saw this in some other package).
 
 
-## known issue - high severity
+~~## known issue - high severity (SHOULD BE CLOSED?)
 Some attributes give same error. See `+page.svelte` in `routes`.
 ```
 Argument of type '{ ****: string; }' is not assignable to parameter of type 'HTMLBaseAttributes | Ion***'.
@@ -49,7 +49,7 @@ Argument of type '{ ****: string; }' is not assignable to parameter of type 'HTM
 <ion-breadcrumbs max-items={4}>
 <ion-breadcrumb href="#">
 ```
-
+~~
 ## known issue - low severity
 Empty interface declaration needed in order to get typescript errors in vscode for default HTML attributes/events
 
